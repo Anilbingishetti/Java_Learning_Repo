@@ -1,8 +1,8 @@
 public abstract class LearningAbstraction  {
     public abstract void learningSelenium();
+     int x;
 
-
-    int inAbstractclass() throws RuntimeException{
+    public int inAbstractclass() throws RuntimeException{
         return 1;
     }
 

@@ -56,18 +56,28 @@ public class Main {
 * static block --> static methods or referances can be used
 * early binding
 *
-* single level
-* multi level
+* single level -->
+* multi level -->
 * multiple
-* hybird
+* hybird -->
 * heirarchi
 *
 * a -->obj , b-->a
 * b -->c
 *
+* is- A  --> tightly
+ * has -A --> composition, aggregation (strong,weak)
+ * diamond --> class cannot have two parents at a time
+ * how to solve diamond priblem -> using interfcaes because they can handle muplitple implementations of interfaces
+*
 * abs --> learnselenium,inabsclass,staticmentod
 * ^
 * |
 * d2 -- > override;
+* method overloding --> earlybinding / complie time
+* method overriding --> latebinding / runtime
+* method hiding --> using static keyword in methods
+* dynamic dispatch --> choosing implementation at runtime
+* 
 *
 * */
