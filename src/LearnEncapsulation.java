@@ -1,4 +1,4 @@
-public class LearnEncapsulation {
+public class LearnEncapsulation extends Constructors {
     private int x;
     private String role;
     public LearnEncapsulation(int val,String role){
@@ -16,6 +16,11 @@ public class LearnEncapsulation {
     public int get(){
         return x;
     }
+
+    @Override
+    public void learnFinal(){
+        System.out.println("i am from encapsulation class");
+    }
 }
 
 /*
@@ -23,5 +28,13 @@ public class LearnEncapsulation {
 * default --> with in the package
 * protected -> inheitance
 * public --> anywhere
+*
+*
+* P -> no final
+*
+* c1 --> ovverride is done, added final key word
+*
+* c2 --> try do ovveride it will fail
+*
 *
 * */
